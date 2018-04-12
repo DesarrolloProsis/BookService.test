@@ -16,11 +16,6 @@ namespace BookService.test
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
-
-            bundles.Add(new ScriptBundle("~/bundles/app").Include(
-             "~/Scripts/knockout-{version}.js",
-             "~/Scripts/app.js"));
-
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
